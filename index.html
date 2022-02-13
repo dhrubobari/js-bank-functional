@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive bank website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-7 text-purple-500">Simple Interactive Bank Website</h1>
+    </header>
+    <main>
+        <section class="bg-green-100 w-3/4 mx-auto mt-6 p-8">
+            <h3 class="text-2xl mb-4">login please</h3>
+            <div>
+            <input id="user-email" class="border block border-slate-600 rounded w-3/4 mb-4 px-2" type="text" placeholder="your email">
+            <input id="user-password" class="border block border-slate-600 rounded w-3/4 mb-4 px-2" type="password" placeholder="password">
+            <button id="login-submit" class="bg-yellow-200 px-4 rounded font-medium">Submit</button> <!-- id dawa hoise for getElementById -->
+            </div> <!-- form chilo, div kora hoise jate submit button click korle reload na hoy -->
+        </section>
+    </main>
+    <script src="js/bank.js"></script>
+</body>
+</html>
